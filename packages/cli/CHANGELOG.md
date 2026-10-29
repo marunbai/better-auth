@@ -1,5 +1,16 @@
 # auth
 
+## 1.7.15
+
+### Patch Changes
+
+- [#12111](https://github.com/better-auth/better-auth/pull/12111) [`ace1f27`](https://github.com/better-auth/better-auth/commit/ace1f27794c0a4c213144690a4cf705232e9fb6b) Thanks [@bytaesu](https://github.com/bytaesu)! - `auth ai` no longer overwrites an MCP config file it cannot parse, such as one with comments or trailing commas. It leaves the file unchanged and prints the config to add manually.
+
+- Updated dependencies [[`7769e91`](https://github.com/better-auth/better-auth/commit/7769e91a3e126335f0a67c08d40ec5a4723bfd36), [`3f17193`](https://github.com/better-auth/better-auth/commit/3f17193023ed76a174a1564352cf0cbb7cddb948), [`1391673`](https://github.com/better-auth/better-auth/commit/1391673e2cdba75240dd6ff67f7de94b72076449), [`9ef0c5b`](https://github.com/better-auth/better-auth/commit/9ef0c5bda9c5ebc46d2c5d93fc0874893d1c6256), [`4cdcb1c`](https://github.com/better-auth/better-auth/commit/4cdcb1c002c1e13ca3aeca1e1d88be46b17dcbb9), [`6e7fa27`](https://github.com/better-auth/better-auth/commit/6e7fa279a52e5e31091e6bda78ab5d56a5c50d24), [`264de2b`](https://github.com/better-auth/better-auth/commit/264de2b8974277e7a9eb8bef3a4e2ca1eef8e68a)]:
+  - better-auth@1.7.15
+  - @better-auth/core@1.7.15
+  - @better-auth/telemetry@1.7.15
+
 ## 1.7.14
 
 ### Patch Changes
